@@ -10,6 +10,7 @@ class Customer
 
   def all
     @@all << self
+    @@all
   end
 
 
